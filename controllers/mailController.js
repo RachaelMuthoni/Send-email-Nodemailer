@@ -24,8 +24,8 @@ exports.sendEmail = async ( req, res ) =>
                     content: 'hello world!'
                 },
                 {   // file on disk as an attachment
-                    filename: 'Html Introduction',
-                    path: '/home/nicky/Documents/HTML Introduction.pdf' // stream this file
+                    filename: 'Assignment1.pdf',
+                    path: 'C:/Users/HP/NODEMAILER/Assignment1.pdf' // stream this file
                 },
             ],
         }
