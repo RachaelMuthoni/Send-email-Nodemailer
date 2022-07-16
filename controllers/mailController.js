@@ -15,7 +15,7 @@ exports.sendEmail = async ( req, res ) =>
 
         let message = {
             from: 'rachaelmuthoni50@outlook.com', // sender address
-            to: "bensonkimathi93@gmail.com, devlaukeymwaura@gmail.com", // list of receivers
+            to: "muthonirachael50@gmail.com", // list of receivers
             subject: "Sending files", // Subject line
             text: "Hello, have a look at these files", // plain text body
             attachments: [
